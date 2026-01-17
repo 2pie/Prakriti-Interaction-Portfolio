@@ -226,13 +226,9 @@
       }
 
       .back{
-        /* position: absolute; */
-        /* top: 78%; */
-    
-        
-        /* height: 10%; */
+
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         
         width:fit-content;
         border-radius: 16px;

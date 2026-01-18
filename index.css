@@ -31,12 +31,13 @@
     
     /* Scroll bar region */
       ::-webkit-scrollbar {
-        width: 15px;
+        width: 10px;
         }
     
         /* Track */
         ::-webkit-scrollbar-track {
-        background: var(--backblack);
+        /* background: var(--backblack); */
+        background: #00000049;
         }
         
         /* Handle */
@@ -64,7 +65,7 @@
         /* font-family: 'Microsoft Tai Le'; */
         list-style: none;
         box-sizing: border-box;
-        background: var(--backwhite);
+        background:#000000;
     }
 
 
@@ -161,6 +162,7 @@
 
 
     .screen {
+        width: 110%;
         height: fit-content;
         overflow: hidden;
         background-color: #000000;
@@ -170,7 +172,7 @@
     
     section.sky{
         position: absolute !important;
-        left: -10% !important;
+        /* left: -10% !important; */
         top: unset !important;
         bottom: -200px;
     }
